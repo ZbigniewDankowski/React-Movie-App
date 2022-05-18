@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,OAAO,CAAA;EACH,KAAK,EAAC,IAAI;EACV,OAAO,EAAC,IAAI;EACZ,WAAW,ECJM,QAAQ,EAAE,UAAU;EDKrC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,ECTQ,OAAgB;EDU7B,gBAAgB,ECXL,KAAK;CDanB",
+    "sources": [
+        "../Footer/Footer.scss",
+        "../assets/commonStyles.scss"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}

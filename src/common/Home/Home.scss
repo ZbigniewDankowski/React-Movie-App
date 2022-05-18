@@ -1,0 +1,25 @@
+@import "../assets/commonStyles.scss";
+
+
+.search-box{
+    width: 100%;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    & .search,
+    & .search-btn{
+        font-size: 17px;
+        padding: 5px 10px;
+        margin: 5px 0;
+        outline: none;
+    }
+    & .search{
+        width: 80%;
+        height: 100%;
+        
+        
+    }
+    
+}
