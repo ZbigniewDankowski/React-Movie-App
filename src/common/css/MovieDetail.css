@@ -1,1 +1,85 @@
-/* No CSS *//*# sourceMappingURL=MovieDetail.css.map */
+.container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 10px;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .title {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.container .movie-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.container .movie-info span {
+  color: #00a2c3;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 5px;
+}
+
+.container .movie-info span i {
+  margin: 0 5px;
+}
+
+.container .movie-plot {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.container .cast-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+}
+
+.container .cast-info span {
+  margin-top: 10px;
+  color: #00a2c3;
+}
+/*# sourceMappingURL=MovieDetail.css.map */

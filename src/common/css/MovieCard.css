@@ -1,5 +1,5 @@
 .card {
-  width: 90%;
+  width: 80%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,14 +14,20 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 3px solid #00a2c3;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid #00a2c3;
   border-radius: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
 }
 
-.card .movie-img {
-  width: 100%;
-  height: 70%;
-  margin: 0 auto;
+.card:hover {
+  -webkit-box-shadow: 0 0 20px #00a2c3;
+          box-shadow: 0 0 20px #00a2c3;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .card .movie-img img {
@@ -32,9 +38,24 @@
 .card .movie-info {
   width: 100%;
   height: 30%;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
+}
+
+.card .movie-info .movie-title,
+.card .movie-info .movie-year {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=MovieCard.css.map */
